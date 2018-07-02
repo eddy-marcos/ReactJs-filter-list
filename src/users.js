@@ -1,6 +1,7 @@
 import React from 'react';
 
 class Users extends React.Component {
+
   //passing value to state component
   passUserInput(val){
     this.props.getUserinput(val);

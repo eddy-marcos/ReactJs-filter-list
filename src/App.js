@@ -1,6 +1,7 @@
 import React, { Component } from 'react';
 import './App.css';
 import Users from './users';
+import PropTypes from 'prop-types'
 
 class App extends Component {
   constructor(){
@@ -39,3 +40,10 @@ render() {
 
 }
 export default App;
+
+App.propTypes = {
+    users: PropTypes.array,
+    isRunning: PropTypes.bool,
+    error: PropTypes.object,
+    userInput: PropTypes.string
+}
