@@ -13,6 +13,7 @@ class App extends Component {
     }
   }//constructor
 
+  //called aftercomponent mounts
   componentDidMount(){
     fetch('data.json').then(res => res.json())
     .then(response => this.setState({
