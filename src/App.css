@@ -1,0 +1,23 @@
+.user {
+font-size: 2em;
+color: #2F4F4F;
+margin-bottom: 20px;
+text-align: center;
+}
+
+#text:hover {
+  color: blue;
+  cursor: pointer;
+}
+
+.search-box{
+ height: 40px;
+ width: 100%;
+ font-size: 1em;
+margin-bottom: 40px;
+}
+
+img:hover {
+  width: 100px;
+  heith: 100px;
+}
