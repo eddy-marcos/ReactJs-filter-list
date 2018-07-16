@@ -1,23 +1,25 @@
 .user {
 font-size: 2em;
-color: #2F4F4F;
+color: #86af49;
 margin-bottom: 20px;
-text-align: center;
+color: #3e4444;
 }
-
-#text:hover {
-  color: blue;
-  cursor: pointer;
+  /*zebra striped */
+.user:nth-child(even){
+  background-color: #c0ded9;
 }
-
+    /*change background color on mouse hover*/
+.user:hover {
+  background-color: #5b9aa0;
+}
+  /*style top search bar*/
 .search-box{
- height: 40px;
+ height: 60px;
  width: 100%;
- font-size: 1em;
-margin-bottom: 40px;
+ font-size: 1.5em;
+ margin-bottom: 40px;
 }
-
-img:hover {
-  width: 100px;
-  heith: 100px;
+  /*on input box click */
+.search-box:focus {
+  background-color: #eaece5;
 }

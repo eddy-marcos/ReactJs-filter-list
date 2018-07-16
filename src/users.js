@@ -33,8 +33,8 @@ class Users extends React.Component {
                 {
                   filteredUsers.map( (user, index) => (
                     <div className="user" key={index}>
-                      <span id="text">{ `Name: ${user.name.title} ${user.name.first} ${user.name.last}`}</span>
-                      <div><img src={user.picture.medium} alt="user"/></div>
+                      <span id="text">{ `Name: ${user.name.title} ${user.name.first} ${user.name.last}`}  </span>
+                      <img src={user.picture.medium} alt="user"/>
                     </div>
                   ))
                 }
